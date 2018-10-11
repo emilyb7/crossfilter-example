@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Emily",
+    "gender": "F",
+    "pets": []
+  },
+  {
+    "name": "Mike",
+    "gender": "M",
+    "pets": []
+  },
+  {
+    "name": "Will",
+    "gender": "M",
+    "pets": [{ "type": "cat", "age": 7, "name": "Joanne" }]
+  },
+  {
+    "name": "Lewi",
+    "gender": "M",
+    "pets": [{ "type": "cat", "age": 1, "name": "Sonny" }]
+  }
+]
