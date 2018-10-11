@@ -20,7 +20,7 @@ const data = [
   {
     name: "Lewi",
     gender: "M",
-    pets: [{ type: "cat", age: 1, name: "Sunny" }]
+    pets: [{ type: "cat", age: 1, name: "Sonny" }]
   }
 ];
 
