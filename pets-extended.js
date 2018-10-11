@@ -42,21 +42,21 @@ const filterFemale = dimension => {
 
 const printAll = ({ top, bottom, female, average }) => {
   // top pet owners
-  console.log("[33m%s[0m", "🍉   top 2 by number of pets");
+  console.log("[33m%s[0m", "🐶   top 2 by number of pets");
   console.table(top.map(printPetDetail));
   console.log("-------------------");
 
   // bottom pet owners
-  console.log("[35m%s[0m", "☕️    bottom 2 by number of pets");
+  console.log("[35m%s[0m", "🐈    bottom 2 by number of pets");
   console.table(bottom.map(printPetDetail));
   console.log("-------------------");
 
   // female
-  console.log("[33m%s[0m", "🥦   top female pet owners");
+  console.log("[33m%s[0m", "🙋‍♀️   top female pet owners");
   console.table(female.map(printPetDetail));
 
   // average number of pets
-  console.log("[33m%s[0m", "🦁    average number of pets by gender");
+  console.log("[33m%s[0m", "🐠  average number of pets by gender");
   console.table(
     average.map(x => ({
       gender: x.key,
